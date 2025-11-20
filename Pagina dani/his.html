@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Honda Civic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000000 0%, #333333 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: rgba(26, 26, 26, 0.95);
+            text-align: center;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #444;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin: 0 30px;
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: #C8102E;
+            transform: translateY(-2px);
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: #C8102E;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 60px auto;
+            background: rgba(58, 58, 58, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border: 1px solid #555;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 25px;
+            font-size: 2rem;
+            font-weight: 600;
+            position: relative;
+        }
+
+        h2::before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background: #C8102E;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        p {
+            font-size: 1.1rem;
+            text-align: justify;
+            margin: 20px 0;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 700px;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        footer {
+            background: #111;
+            color: #b3b3b3;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            border-top: 2px solid #444;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            nav a {
+                margin: 0 15px;
+                font-size: 0.9rem;
+            }
+            section {
+                margin: 30px 20px;
+                padding: 25px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Historia del Honda Civic</h1>
+        <p>Un legado de innovación, diseño y rendimiento.</p>
+    </header>
+
+    <nav>
+        <a href="Ini.html">INICIO</a>
+        <a href="Cot.html">COTIZA</a>
+        <a href="his.html">HISTORIA</a>
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+    <section>
+        <h2>Desde 1972 hasta hoy</h2>
+        <p>
+            El Honda Civic nació en 1972 con el objetivo de ofrecer un automóvil eficiente, confiable y accesible. 
+            Desde entonces, se ha convertido en uno de los vehículos más vendidos del mundo, reconocido por su durabilidad, 
+            economía de combustible y diseño deportivo.
+        </p>
+
+        <img src="Civ1976.jpg" alt="Honda Civic clásico">
+
+        <p>
+            A lo largo de los años, el Civic ha evolucionado constantemente, adaptándose a las necesidades de los conductores 
+            y adoptando tecnologías de vanguardia. Desde su primera generación hasta la actual, el Civic representa el equilibrio 
+            perfecto entre elegancia, potencia y eficiencia.
+        </p>
+
+        <img src="Hon2006" alt="Honda Civic moderno">
+
+        <p>
+            Hoy en día, el Honda Civic 2026 combina diseño sofisticado con innovación tecnológica, 
+            ofreciendo una experiencia de conducción moderna y segura. Es más que un auto: es un símbolo de confianza.
+        </p>
+        <img src="hon2026.jpg" alt="Honda Civic Actual">
+    </section>
+
+    <footer>
+        <p>© 2025 Honda México</p>
+    </footer>
+
+</body>
+</html>

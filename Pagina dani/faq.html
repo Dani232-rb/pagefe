@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - Honda Civic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 50%, #1a1a1a 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000000 0%, #333333 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: rgba(26, 26, 26, 0.95);
+            text-align: center;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #444;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin: 0 30px;
+            font-weight: 600;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: #C8102E;
+            transform: translateY(-2px);
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background: #C8102E;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+            left: 0;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 60px auto;
+            background: rgba(58, 58, 58, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            border: 1px solid #555;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            font-weight: 600;
+            position: relative;
+        }
+
+        h2::before {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background: #C8102E;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        details {
+            margin-bottom: 20px;
+            border: 1px solid #555;
+            border-radius: 8px;
+            background: rgba(42, 42, 42, 0.8);
+            transition: all 0.3s ease;
+        }
+
+        details:hover {
+            border-color: #C8102E;
+            box-shadow: 0 4px 15px rgba(200, 16, 46, 0.3);
+        }
+
+        summary {
+            padding: 15px 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            list-style: none;
+            position: relative;
+            color: #e0e0e0;
+        }
+
+        summary::after {
+            content: '+';
+            position: absolute;
+            right: 20px;
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        details[open] summary::after {
+            content: '−';
+            transform: rotate(180deg);
+        }
+
+        summary:hover {
+            color: #C8102E;
+        }
+
+        p {
+            padding: 0 20px 20px 20px;
+            margin: 0;
+            font-size: 1rem;
+            color: #cccccc;
+        }
+
+        footer {
+            background: #111;
+            color: #b3b3b3;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            border-top: 2px solid #444;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            nav a {
+                margin: 0 15px;
+                font-size: 0.9rem;
+            }
+            section {
+                margin: 30px 20px;
+                padding: 25px;
+            }
+            summary {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Preguntas Frecuentes</h1>
+        <p>Respuestas a las dudas más comunes sobre el Honda Civic.</p>
+    </header>
+
+    <nav>
+        <a href="Ini.html">INICIO</a>
+        <a href="Cot.html">COTIZA</a>
+        <a href="his.html">HISTORIA</a>
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+    <section>
+        <h2>FAQ</h2>
+
+        <details>
+            <summary>¿Cuáles son las características principales del Honda Civic 2026?</summary>
+            <p>El Honda Civic 2026 destaca por su diseño aerodinámico, motor eficiente, sistema Honda Sensing para seguridad avanzada, interior premium con tecnología conectada y opciones de motorización híbrida para mayor eficiencia.</p>
+        </details>
+
+        <details>
+            <summary>¿Qué motores están disponibles en el Civic 2026?</summary>
+            <p>Ofrece motores turboalimentados de gasolina, versiones híbridas e híbridas enchufables, con potencias que van desde 158 hp hasta 200 hp, dependiendo del modelo. Todos priorizan la eficiencia y el rendimiento.</p>
+        </details>
+
+        <details>
+            <summary>¿Es el Honda Civic seguro?</summary>
+            <p>Sí, el Civic incluye el sistema Honda Sensing con frenado automático de emergencia, control de crucero adaptativo, alerta de cambio de carril y más. Ha recibido calificaciones de seguridad de 5 estrellas en pruebas de choque.</p>
+        </details>
+
+        <details>
+            <summary>¿Cuál es el consumo de combustible del Civic?</summary>
+            <p>El consumo varía por modelo: las versiones híbridas pueden alcanzar hasta 25 km/l en ciudad, mientras que los modelos de gasolina ofrecen alrededor de 18-20 km/l. Es uno de los más eficientes en su clase.</p>
+        </details>
+
+        <details>
+            <summary>¿Qué garantías ofrece Honda para el Civic?</summary>
+            <p>Honda ofrece una garantía de 3 años o 60,000 km para el vehículo, 5 años o 100,000 km para el tren motriz, y 5 años para la batería híbrida. Consulta con tu distribuidor para detalles específicos.</p>
+        </details>
+
+        <details>
+            <summary>¿Puedo financiar la compra de un Civic?</summary>
+            <p>Sí, Honda México ofrece opciones de financiamiento a través de distribuidores autorizados, con tasas competitivas y planes personalizados. Contacta a tu concesionario para más información.</p>
+        </details>
+
+        <details>
+            <summary>¿Dónde puedo probar el Civic 2026?</summary>
+            <p>Puedes agendar una prueba de manejo en cualquier distribuidor Honda autorizado en México. Visita el sitio web de Honda o llama al 01 800 HONDA00 para localizar el más cercano.</p>
+        </details>
+
+        <details>
+            <summary>¿Qué accesorios están disponibles para el Civic?</summary>
+            <p>Honda ofrece una amplia gama de accesorios genuinos, como llantas deportivas, sistemas de audio premium, protectores de carrocería, y kits de personalización interior y exterior.</p>
+        </details>
+    </section>
+
+    <footer>
+        <p>© 2025 Honda México</p>
+    </footer>
+
+</body>
+</html>
